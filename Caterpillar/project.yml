@@ -1,0 +1,65 @@
+name: Caterpillar
+
+options:
+  bundleIdPrefix: com.memelab
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+  groupSortPosition: top
+
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+    TARGETED_DEVICE_FAMILY: "1"
+    ENABLE_USER_SCRIPT_SANDBOXING: NO
+
+targets:
+  Caterpillar:
+    type: application
+    platform: iOS
+    sources:
+      - path: App
+        excludes:
+          - "Info.plist"
+      - path: Shared
+    dependencies:
+      - target: CaterpillarWidget
+        embed: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.memelab.caterpillar
+        PRODUCT_NAME: Caterpillar
+        INFOPLIST_FILE: App/Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+
+  CaterpillarWidget:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: Widget
+        excludes:
+          - "Info.plist"
+      - path: Shared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.memelab.caterpillar.widget
+        PRODUCT_NAME: CaterpillarWidget
+        INFOPLIST_FILE: Widget/Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        SKIP_INSTALL: YES
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+
+schemes:
+  Caterpillar:
+    build:
+      targets:
+        Caterpillar: all
+    run:
+      config: Debug
+    archive:
+      config: Release

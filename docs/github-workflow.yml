@@ -1,0 +1,51 @@
+name: Build IPA
+
+# Собирает .ipa БЕЗ подписи на macOS-раннере GitHub и отдаёт его артефактом.
+# Mac не нужен. Дальше .ipa подписывается своим Apple ID через Sideloadly.
+#
+# Шаг «Найти проект» ищет scripts/build-ipa.sh в любом месте репозитория,
+# поэтому сборка не сломается, даже если при загрузке файлы окажутся во
+# вложенной папке.
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main, master]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: macos-15
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Найти проект
+        run: |
+          SCRIPT="$(find . -type f -name build-ipa.sh | head -n 1)"
+          if [ -z "$SCRIPT" ]; then
+            echo "build-ipa.sh не найден — проверь, что папка scripts загрузилась" >&2
+            exit 1
+          fi
+          echo "Нашёл: $SCRIPT"
+          echo "PROJECT_DIR=$(dirname "$(dirname "$SCRIPT")")" >> "$GITHUB_ENV"
+
+      - name: Показать Xcode
+        run: |
+          xcodebuild -version
+          xcrun --sdk iphoneos --show-sdk-version
+
+      - name: Собрать .ipa
+        run: bash "$PROJECT_DIR/scripts/build-ipa.sh"
+
+      - name: Отдать .ipa
+        uses: actions/upload-artifact@v4
+        with:
+          name: Caterpillar-unsigned-ipa
+          path: ${{ env.PROJECT_DIR }}/Caterpillar/build/Caterpillar.ipa
+          if-no-files-found: error
+          retention-days: 30

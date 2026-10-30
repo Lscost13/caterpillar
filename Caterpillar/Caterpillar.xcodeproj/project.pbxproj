@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13BB6CFC42EAD92937867C4E /* CaterpillarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145659526204EB5CF6F7BD8D /* CaterpillarApp.swift */; };
+		D0C70708F90C3FB6155635CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA8979D6183B4E89A7647BA /* ContentView.swift */; };
+		002497EA4A99F5126BAFB568 /* CaterpillarPose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58D0D523FE89F1B9F1466B /* CaterpillarPose.swift */; };
+		AB7B79350B08F1EA38094E10 /* CaterpillarArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A738AD18E8DB05B0C897FB /* CaterpillarArt.swift */; };
+		F7075B01E662CC0595AC9BED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31622F5DB5AF44890238D799 /* Assets.xcassets */; };
+		B5EB894F7F300A2D108EDEF4 /* CaterpillarWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06D0A3DA474C75D874CE826 /* CaterpillarWidget.swift */; };
+		F216710BCBF06A521B5E5303 /* CaterpillarPose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58D0D523FE89F1B9F1466B /* CaterpillarPose.swift */; };
+		B20F0D630F7D618B4D9F58DB /* CaterpillarArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A738AD18E8DB05B0C897FB /* CaterpillarArt.swift */; };
+		AC96BE7B9F9C15532AFFA23D /* CaterpillarWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1B442E42980596EBCD246D51 /* CaterpillarWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		739A6A3F4C1C3074278D4186 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0661F517A86C8F5C87C0EDBA;
+			remoteInfo = CaterpillarWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BAE1492BDE49D13FF7E211EB /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AC96BE7B9F9C15532AFFA23D /* CaterpillarWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		145659526204EB5CF6F7BD8D /* CaterpillarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaterpillarApp.swift; sourceTree = "<group>"; };
+		AEA8979D6183B4E89A7647BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5C58D0D523FE89F1B9F1466B /* CaterpillarPose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaterpillarPose.swift; sourceTree = "<group>"; };
+		E9A738AD18E8DB05B0C897FB /* CaterpillarArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaterpillarArt.swift; sourceTree = "<group>"; };
+		B06D0A3DA474C75D874CE826 /* CaterpillarWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaterpillarWidget.swift; sourceTree = "<group>"; };
+		31622F5DB5AF44890238D799 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EB24A17CD6C023E6F80F35F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1AB426AC4B19A668EA0B55B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84337AD8D27FCD69AF2C4FC2 /* Caterpillar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caterpillar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B442E42980596EBCD246D51 /* CaterpillarWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CaterpillarWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44086AC38F580DDA340DB7B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C405F852F0E774A00A664D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		518DA81DB9B99529C0C0AEBE = {
+			isa = PBXGroup;
+			children = (
+				D1D0524B025E57AFFF263442 /* App */,
+				B46A6AFB1DC88CE23F6E63F1 /* Shared */,
+				206D9AE6A6433106E0AF6963 /* Widget */,
+				547D009064F7C3F13BEF3460 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1D0524B025E57AFFF263442 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				145659526204EB5CF6F7BD8D /* CaterpillarApp.swift */,
+				AEA8979D6183B4E89A7647BA /* ContentView.swift */,
+				31622F5DB5AF44890238D799 /* Assets.xcassets */,
+				1EB24A17CD6C023E6F80F35F /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B46A6AFB1DC88CE23F6E63F1 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				5C58D0D523FE89F1B9F1466B /* CaterpillarPose.swift */,
+				E9A738AD18E8DB05B0C897FB /* CaterpillarArt.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		206D9AE6A6433106E0AF6963 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				B06D0A3DA474C75D874CE826 /* CaterpillarWidget.swift */,
+				E1AB426AC4B19A668EA0B55B /* Info.plist */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		547D009064F7C3F13BEF3460 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84337AD8D27FCD69AF2C4FC2 /* Caterpillar.app */,
+				1B442E42980596EBCD246D51 /* CaterpillarWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3435DDA2687639586BF0B70 /* Caterpillar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5505F9AF814A7F0992DE2402 /* Build configuration list for PBXNativeTarget "Caterpillar" */;
+			buildPhases = (
+				C4BB4888821B00A15964B0CF /* Sources */,
+				44086AC38F580DDA340DB7B6 /* Frameworks */,
+				F6AD09023A80268DFA48D911 /* Resources */,
+				BAE1492BDE49D13FF7E211EB /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6034B2ACFC9BB6762D443577 /* PBXTargetDependency */,
+			);
+			name = Caterpillar;
+			productName = Caterpillar;
+			productReference = 84337AD8D27FCD69AF2C4FC2 /* Caterpillar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0661F517A86C8F5C87C0EDBA /* CaterpillarWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EB251B5FEF9F9B925BE1907 /* Build configuration list for PBXNativeTarget "CaterpillarWidget" */;
+			buildPhases = (
+				F7040D054E4E9E15DB5CF3C1 /* Sources */,
+				03C405F852F0E774A00A664D /* Frameworks */,
+				A8BC727B68B9B0A61FD32F07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaterpillarWidget;
+			productName = CaterpillarWidget;
+			productReference = 1B442E42980596EBCD246D51 /* CaterpillarWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					E3435DDA2687639586BF0B70 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					0661F517A86C8F5C87C0EDBA = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 7EF2517A8FE63F4681EC5EEA /* Build configuration list for PBXProject "Caterpillar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ru;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				ru,
+				en,
+				Base,
+			);
+			mainGroup = 518DA81DB9B99529C0C0AEBE;
+			productRefGroup = 547D009064F7C3F13BEF3460 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3435DDA2687639586BF0B70 /* Caterpillar */,
+				0661F517A86C8F5C87C0EDBA /* CaterpillarWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6AD09023A80268DFA48D911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7075B01E662CC0595AC9BED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8BC727B68B9B0A61FD32F07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4BB4888821B00A15964B0CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13BB6CFC42EAD92937867C4E /* CaterpillarApp.swift in Sources */,
+				D0C70708F90C3FB6155635CC /* ContentView.swift in Sources */,
+				002497EA4A99F5126BAFB568 /* CaterpillarPose.swift in Sources */,
+				AB7B79350B08F1EA38094E10 /* CaterpillarArt.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7040D054E4E9E15DB5CF3C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5EB894F7F300A2D108EDEF4 /* CaterpillarWidget.swift in Sources */,
+				F216710BCBF06A521B5E5303 /* CaterpillarPose.swift in Sources */,
+				B20F0D630F7D618B4D9F58DB /* CaterpillarArt.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6034B2ACFC9BB6762D443577 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0661F517A86C8F5C87C0EDBA /* CaterpillarWidget */;
+			targetProxy = 739A6A3F4C1C3074278D4186 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		969595A508627F35A110362C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C95F91A6D5CD87BB5DB8FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0DD1C3E4BFC124D878FE440 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.memelab.caterpillar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D575AB479E12FC2A0F74F307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Widget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.memelab.caterpillar.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		699FCDBED06EC64C8A6B513F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.memelab.caterpillar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F4E296410894D8ED26377CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Widget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.memelab.caterpillar.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EF2517A8FE63F4681EC5EEA /* Build configuration list for PBXProject "Caterpillar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969595A508627F35A110362C /* Debug */,
+				4C95F91A6D5CD87BB5DB8FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5505F9AF814A7F0992DE2402 /* Build configuration list for PBXNativeTarget "Caterpillar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0DD1C3E4BFC124D878FE440 /* Debug */,
+				699FCDBED06EC64C8A6B513F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EB251B5FEF9F9B925BE1907 /* Build configuration list for PBXNativeTarget "CaterpillarWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D575AB479E12FC2A0F74F307 /* Debug */,
+				F4E296410894D8ED26377CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+}
